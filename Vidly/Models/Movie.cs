@@ -10,6 +10,7 @@ namespace Vidly.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
     }
 
     // if user goes to page /movies/random, we need to create a 'movies' controller
